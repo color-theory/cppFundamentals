@@ -1,6 +1,19 @@
 #include <iostream>
 using namespace std;
 
+void callG(int, int);
+
+void callF()
+{
+  callG(3,4);
+}
+
+void callG(int b, int c)
+{
+  cout << "hello\n\n";
+  return;
+}
+
 int max(int x, int y)
 {
   if (x > y)
@@ -32,7 +45,9 @@ int main()
   maxByReference(a, b, myMax);
 
   cout << myMax << "\n\n";
-  
+
+  callF();
+    
   return 0;
 }
   
