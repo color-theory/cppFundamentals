@@ -13,6 +13,11 @@ int max(int x, int y)
     }
 }
 
+void maxByReference(int x, int y, int& max)
+{
+  max = (x > y) ? x : y;
+}
+
 int main()
 {
 
@@ -23,6 +28,11 @@ int main()
 
   cout << "\n Your max is " << max(a, b) << "\n\n";
 
+  int myMax;
+  maxByReference(a, b, myMax);
+
+  cout << myMax << "\n\n";
+  
   return 0;
 }
   
