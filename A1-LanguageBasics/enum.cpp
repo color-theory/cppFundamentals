@@ -8,11 +8,12 @@ int main()
 
   Season seasons;
 
+  int mySeason = winter;
+  
   seasons = fall;
   
   cout << sun << mon << tue << wed << thur << fri << sat << "\n";
-  cout << seasons << "\n\n"; // 2
-
+  cout << seasons << mySeason <<  "\n\n"; // 23
   return 0;
 }
   
