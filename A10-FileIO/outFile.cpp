@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-  ofstream outFile("exampleText/your.poem");
+  ofstream outFile("exampleText/your.poem", ios::app);
   string line;
   
-  cout << "Start your poem: (End the file by typing end)\n\n"; 
+  cout << "Add to your.poem: (End the session by typing end)\n\n"; 
   for(;(getline(cin,line)) && (line != "end");)
     {
       outFile << (line) << endl; 
