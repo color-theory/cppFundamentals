@@ -1,5 +1,4 @@
-# Chapter 1
-## Principals of Programming and Software Engineering
+# 1. Principals of Programming and Software Engineering
 
 ## 1.1 Software Engineering and Object-Oriented Design
 
@@ -8,7 +7,7 @@
 
 **Software engineering** facilitates development of programs.
 
-### An Examination of Problem Solving
+## An Examination of Problem Solving
 
 * A solution specifies a system of interacting objects.
 * An object is an instance of a class.
@@ -22,7 +21,7 @@ and developing a computer program that solves that problem.
 
 **Class**-A set of objects having the same type.
 
-### Aspects of an Object-Oriented Solution
+## Aspects of an Object-Oriented Solution
 
 * Modules implement algorithms, which often manipulate data.
 
@@ -31,7 +30,7 @@ several functions or classes, or other blocks of code.
 
 **Algorithm**-a step-by-step recipe for performing a task within a finite period of time.
 
-### Abstraction and Information Hiding
+## Abstraction and Information Hiding
 
 * Specify what to do, not how to do it.
 * Write specifications for each module before implementing it.
