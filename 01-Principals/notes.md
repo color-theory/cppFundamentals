@@ -55,3 +55,34 @@ programming language to store a collection of data.
 
 **Information Hiding**-A Principal that says to hide certain details from public,
 and make them closed for modification.
+
+## Principals of Object-Oriented Programming
+
+* Objects encapsulate attributes or data and behaviors or operations.
+* Encapsulation hides inner details
+* Inheritance supports reusing software
+* Polymorphism allows an object's behavior to be determined at runtime
+* An overloaded operator has multiple meanings
+
+**Encapsulation**-Objects combine data and operations
+**Inheritance**-Classes can inherit properties from other classes.
+**Polymorphism**-Objects can determine appropriate operations at execution time.
+
+## Object-Oriented Analysis and Design
+
+* Analysis explores a problem, not a solution
+* Object-oriented analysis explores a problem in terms of its objects
+* Design explores a solution to a problem
+* object oriented design explores a solution's objects and their collaborations.
+
+**Requirements**- What a solution must be and do.
+
+**Object-oriented Analysis(OOA)**-Understanding of the problems and requirements of a
+solution and expressing them in terms of the objects within world objects, software
+systems, or ideas. Describe the problem.
+
+**Object-oriented Design(OOD)**-Describing a solution in terms of software objects
+and how those objects will collaborate with one another to fulfill the requirements
+of the problem.
+
+**Collaborate**-When objects send messages to one another...call each other's operations.
