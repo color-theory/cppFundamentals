@@ -86,3 +86,38 @@ and how those objects will collaborate with one another to fulfill the requireme
 of the problem.
 
 **Collaborate**-When objects send messages to one another...call each other's operations.
+
+## Applying UML to OOA/D
+
+* The Unified Modeling Lanugage visually represents object-oriented solutions as diagrams
+* A use case is a textual story
+* A scenario describes the system's behavior under certain circumstances from the
+perspective of the user
+* A UML sequence diagram shows the interactions among objects over time.
+* A UML sequence diagram represents an object as a box.
+* An activation bar on an object's timeline represents a responsibility of the
+object's class
+* A stereotype identifies a special characteristic of an element.
+* A UML class diagram shows the unchanging relationships among classes of objects
+* An association indicates the classes know about each other.
+* Aggregation indicates that one class contains an instance of another class
+* Composition is a stronger form of aggregation; the lifetimes of the container
+and the contained objects are the same.
+* Generalization indicates a family of classes related by inheritance.
+* UML diagrams are not documentation.
+* Uml is a tool for exploration and communication
+
+### Object-Oriented Analysis and the Use Case
+1. Describe the problem domain in terms of scenarios involving the solution that
+satisfies user goals.
+2. Discover noteworthy objects, attributes, and associations within scenarios
+
+### UML Sequence Diagram
+1. Visual representation of the flow of messages sent between objects during a
+single scenario.
+2. Indicates the responsibilities of an object.
+3. Indicates the collaborations among objects.
+
+### UML Class(Static) Diagram
+1. Shows the attributes and operations of individual classes.
+2. Shows the unchanging relationships among the classes in a solution.
