@@ -121,3 +121,14 @@ single scenario.
 ### UML Class(Static) Diagram
 1. Shows the attributes and operations of individual classes.
 2. Shows the unchanging relationships among the classes in a solution.
+
+## The Software Life Cycle
+
+* The software life cycle describes the phases of software development.
+* RUP gives structure to the software development process.
+
+**Life Cycle**-The phases through which software will progress from
+conception to replacement to deletion from the hard disk forever.
+
+**Rational Unified Process(RUP)**-Widely used process that uses and gives
+structure to OOA/D.
