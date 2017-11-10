@@ -28,7 +28,7 @@ and developing a computer program that solves that problem.
 **Modules**-Self-contained units of C++ code. Can be a function, method, class,
 several functions or classes, or other blocks of code.
 
-**Algorithm**-a step-by-step recipe for performing a task within a finite period of time.
+**Algorithm**-A step-by-step recipe for performing a task within a finite period of time.
 
 ## Abstraction and Information Hiding
 
