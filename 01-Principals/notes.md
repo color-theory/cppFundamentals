@@ -132,3 +132,19 @@ conception to replacement to deletion from the hard disk forever.
 
 **Rational Unified Process(RUP)**-Widely used process that uses and gives
 structure to OOA/D.
+
+## Iterative and Evolutionary Development
+
+* Iterative Development forms a solution after many iterations; each iteration
+builds on the previous iteration until a complete solution is achieved.
+
+* A critique of each iteration influences the next iteration
+
+* Iterative development enables you to adapt a solution to a changing
+environment.
+
+### Iterative and Evolutionary Development
+1. Determines timebox lengths at start of a project.
+2. Keeps timebox lengths short (2 to 4 weeks)
+3. Gets end-user and domain-expert feedback from iteration n to influence
+the direction of iteration n+1
