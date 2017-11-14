@@ -181,3 +181,19 @@ The elaboration phase is not only about designing the system. We also perform an
 coding, and testing. If this phase only has one iteration, then it effectively becomes
 a waterfall method.
 
+## 1.2 Achieving a Better Solution
+
+* Time performing Analysis and Design is well spent.
+
+## Evaluation of Designs and Solutions
+
+* Highly cohesive modules perform one well-defined task
+* A robust module performs well under unusual conditions
+* Loosely coupled modules are independent
+* A module's interface is the only way to interact with that module
+
+**Cohesion**- When a module performs one well-defined task, it is said to be highly
+cohesive. This brings several benefits. It promotes easy to understand code, It is easy
+to reuse in other software, it is easier to maintain, it is more robust, and promotes
+low coupling.
+
