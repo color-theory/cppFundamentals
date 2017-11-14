@@ -166,3 +166,18 @@ development of system requirements, more accurate time and cost estimates
 Analysis, Design, Implementation, and Testing all occur during each phase of the RUP
 except for testing, which starts during the elaboration phase. and increases in volume
 until transition.
+
+## What about Waterfall?
+
+* The Waterfall method is outdated and should no longer be used.
+
+It is important to be careful during certain phases of the RUP as by making certain
+mistakes, it can quickly become waterfall. IE: Inception is not only about specifying
+requirements. We also make sure that the system is feasible, estimate how much the system
+will cost to develop, and identify high risk issues. Inception does not equal Waterfall's
+ requirements phase.
+
+The elaboration phase is not only about designing the system. We also perform analysis,
+coding, and testing. If this phase only has one iteration, then it effectively becomes
+a waterfall method.
+
