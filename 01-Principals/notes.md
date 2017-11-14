@@ -150,3 +150,19 @@ environment.
 the direction of iteration n+1
 
 ## Rational Unified Process Development Phases
+
+* **Inception**- Feasibility study, project vision, rough time and cost estimates
+* **Elaboration**- refined project vision, iterative development of core system,
+development of system requirements, more accurate time and cost estimates
+* **Construction**- iterative development of remaining system
+* **Transition**-Testing and deployment of system.
+
+* The inception phase defines a project's scope and feasibility.
+* The elaboration phase developes a core system and addresses high-risk elements
+* The elaboration phase refines a system's requirements and cost
+* The construction phase develops the remaining system
+* During the transition phase, beta testing and system development occur.
+
+Analysis, Design, Implementation, and Testing all occur during each phase of the RUP
+except for testing, which starts during the elaboration phase. and increases in volume
+until transition.
