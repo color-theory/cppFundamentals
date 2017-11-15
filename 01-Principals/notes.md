@@ -197,3 +197,8 @@ cohesive. This brings several benefits. It promotes easy to understand code, It 
 to reuse in other software, it is easier to maintain, it is more robust, and promotes
 low coupling.
 
+**Coupling**-Modules in a design should be loosely coupled, that is, they should be
+independent of one another. Coupling between modules can involve sharing each other's
+data structures or using each other's methods. Low coupled designs tend to create systems
+that are more adaptable to change. They are easier to understand, have increased
+reusability, and are more cohesive.
