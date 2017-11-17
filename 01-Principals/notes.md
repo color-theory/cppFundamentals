@@ -183,7 +183,7 @@ a waterfall method.
 
 ## 1.2 Achieving a Better Solution
 
-* Time performing Analysis and Design is well spent.
+* Time performing Analysis and Design is well spent
 
 ## Evaluation of Designs and Solutions
 
@@ -202,3 +202,4 @@ independent of one another. Coupling between modules can involve sharing each ot
 data structures or using each other's methods. Low coupled designs tend to create systems
 that are more adaptable to change. They are easier to understand, have increased
 reusability, and are more cohesive.
+
