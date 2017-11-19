@@ -203,3 +203,10 @@ data structures or using each other's methods. Low coupled designs tend to creat
 that are more adaptable to change. They are easier to understand, have increased
 reusability, and are more cohesive.
 
+**Interface**-Made up of the publicly accessible methods and data. Typically only
+contains methods because publicly accessible data members generally cause problems.
+Interfaces should be minimal and complete. For each class to be easy to understand,
+the amount of methods in an interface should remain small, but it should also be
+large enough for a programmer to do what they want easilly. **Complete interfaces** allow
+programmers to accomplish any reasonable task and a **minimal interface** only contains
+a method if that method is essential to the class responsibilities.
