@@ -210,3 +210,7 @@ the amount of methods in an interface should remain small, but it should also be
 large enough for a programmer to do what they want easilly. **Complete interfaces** allow
 programmers to accomplish any reasonable task and a **minimal interface** only contains
 a method if that method is essential to the class responsibilities.
+
+**Other important aspects of modules**-Think about how modules relate to each other
+when designing them for a solution. Keeping cohesion and coupling in mind will help to
+understand how to compare designs and choose a better one.
