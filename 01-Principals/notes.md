@@ -105,7 +105,7 @@ object's class
 and the contained objects are the same.
 * Generalization indicates a family of classes related by inheritance.
 * UML diagrams are not documentation.
-* Uml is a tool for exploration and communication
+* Uml is a tool for exploration and communication.
 
 ### Object-Oriented Analysis and the Use Case
 1. Describe the problem domain in terms of scenarios involving the solution that
