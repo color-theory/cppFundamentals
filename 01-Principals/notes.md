@@ -169,7 +169,7 @@ until transition.
 
 ## What about Waterfall?
 
-* The Waterfall method is outdated and should no longer be used.
+* The Waterfall method is outdated and should no longer be used...
 
 It is important to be careful during certain phases of the RUP as by making certain
 mistakes, it can quickly become waterfall. IE: Inception is not only about specifying
