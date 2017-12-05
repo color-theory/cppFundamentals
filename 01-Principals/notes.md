@@ -214,3 +214,35 @@ a method if that method is essential to the class responsibilities.
 **Other important aspects of modules**-Think about how modules relate to each other
 when designing them for a solution. Keeping cohesion and coupling in mind will help to
 understand how to compare designs and choose a better one.
+
+## Operation Contracts
+
+* A module's contract specifies the module's purpose, assumptions, input, and output.
+* Specify the data flow among modules.
+* Specifications are the terms of a contract.
+* A module's operation contract should not describe how it will perform it's task.
+* Operation contracts should include precise preconditions and postconditions.
+* First draft specs will be revised.
+* Precise documentation is essential.
+* Incorporate existing software components into your design.
+
+An **operation contract** documents how a method can be used and what limitations it has.
+Begin specifying the contract during analysis, finish during design, and document your
+code with this contract, particularly within the header files.
+
+The **data flow** will also need to be specified clearly. What data is available to the
+module before execution? What does the module assume? What actions have taken place, and
+what does the data look like after execution?
+
+The contract helps programmers understand the responsibility of the module in relation to
+the other modules in the solution. It does not commit the module to a particular way of
+performing the tasks.
+
+Specify both the **precondition** and the **postcondition**. When you write a
+precondition, begin by describing the method or function's input arguments, mention any
+global named constants that it uses, and describe what changes the module has made. If
+the method returns a value, it should also be described.
+
+Novice programmers tend to dismiss the importance of documentation, particularly when
+they are simultaneously designer, programmer, and user of a small program. Will you
+remember what your code will do weeks after it is written? 
