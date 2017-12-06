@@ -258,4 +258,9 @@ An **invariant** is a condition that is always true at a particular point in an 
 **Loop invariants** are conditions that are true before and after execution of an algorithm's loop.
 
 If you show that Assertion A1 is true and Statement S1 executes which leads to A2 being
-true.
+true, and it has been shown that assertion A2 and Statement S2 lead to A3 being true,
+then you can conclude that if assertion A1 is true, executing S1 and S2 will lead to A3
+being true.
+
+
+
