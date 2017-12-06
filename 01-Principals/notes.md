@@ -245,4 +245,17 @@ the method returns a value, it should also be described.
 
 Novice programmers tend to dismiss the importance of documentation, particularly when
 they are simultaneously designer, programmer, and user of a small program. Will you
-remember what your code will do weeks after it is written? 
+remember what your code will do weeks after it is written?
+
+## Verification
+
+* You can prove the correctness of some algorithms
+* State loop invariants in your programs
+
+An **assertion** is a statement about a particular condition at a certain point in an
+algorithm.
+An **invariant** is a condition that is always true at a particular point in an algorithm
+**Loop invariants** are conditions that are true before and after execution of an algorithm's loop.
+
+If you show that Assertion A1 is true and Statement S1 executes which leads to A2 being
+true.
