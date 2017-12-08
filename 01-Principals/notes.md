@@ -262,5 +262,16 @@ true, and it has been shown that assertion A2 and Statement S2 lead to A3 being 
 then you can conclude that if assertion A1 is true, executing S1 and S2 will lead to A3
 being true.
 
+An important technique inolves loop invariants to demonstrate correctness of iterative
+algorithms.(see loopinvariants.txt)
 
+1. The invariants must be true initially, before the loop begins execution for the first time.
+2. An execution of the loop must preserve the invariant.
+3. The invariant must capture the corectness of the algorithm.
+4. The loop must terminate.
 
+Not only can you use invariants to show that your loop is correct, but you can also use them to show
+that your loop is wrong.
+
+Notice the clear connection between steps 1 through 4 and mathematical induction. Showing the invariant
+to be true initially, which establishes the base case, is analogous to establishing that a property of the natural numbers is true for 0. Showing that each iteration of the loop preserves the invariant is the inductive step. This step is analogous to showing that if a property is true for an arbitrary natural number k, then the property is true for the natural number k+1. After performing the for steps described above, you can conclude that the invariant is true after every iteration of the loop--just as mathematical induction allows you to conclude that a property is true for every natural number.
