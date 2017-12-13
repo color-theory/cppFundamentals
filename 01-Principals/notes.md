@@ -274,4 +274,16 @@ Not only can you use invariants to show that your loop is correct, but you can a
 that your loop is wrong.
 
 Notice the clear connection between steps 1 through 4 and mathematical induction. Showing the invariant
-to be true initially, which establishes the base case, is analogous to establishing that a property of the natural numbers is true for 0. Showing that each iteration of the loop preserves the invariant is the inductive step. This step is analogous to showing that if a property is true for an arbitrary natural number k, then the property is true for the natural number k+1. After performing the for steps described above, you can conclude that the invariant is true after every iteration of the loop--just as mathematical induction allows you to conclude that a property is true for every natural number.
+to be true initially, which establishes the base case, is analogous to establishing that a property of the natural numbers is true for 0. Showing that each iteration of the loop preserves the invariant is the **inductive step**. This step is analogous to showing that if a property is true for an arbitrary natural number k, then the property is true for the natural number k+1. After performing the for steps described above, you can conclude that the invariant is true after every iteration of the loop--just as mathematical induction allows you to conclude that a property is true for every natural number.
+
+# What is a good solution?
+
+* A solution is good if the total cost it incurs over all phases of its life cycle is minimal. -- A multidimensional view of a solution's cost.
+
+* Programs must be well structured and documented.
+
+* Efficiency is only one aspect of a solution's cost.
+
+**Cost of a program** includes such factors as the computer resources (time and memory) that the program consumes, the difficulties encountered by those who use the program, and the consequences of a program that does not behave correctly.
+
+The cost above does not give the whole picture. They pertain only to the life of a solution after it has been developed. In assessing whether a solution is good, you must also consider the effort required to develop the solution and any changes (bug fixes and extensions) to the program that are made after it has been deployed. The total cost must take into account the value of the time of the people who analyzed, designed, coded, debugged, and tested it. The cost must also include the cost of maintaining, modifyingm and expanding it.
